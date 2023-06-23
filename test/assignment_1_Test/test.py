@@ -17,7 +17,7 @@ sys.path.append(script_directory)
 sys.path.append(os.path.join(script_directory, 'src'))
 
 # Now you can import modules or perform operations in the new working directory
-from ..src.assignment_1.util import *
+from ..assignment_1_Test import *
 import unittest
 
 
