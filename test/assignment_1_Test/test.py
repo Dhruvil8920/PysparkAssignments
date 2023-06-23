@@ -7,15 +7,15 @@ script_path = os.path.abspath(__file__)
 # Get the directory of the script
 script_directory = os.path.dirname(script_path)
 
-# Get the absolute path of the 'src' directory
-src_directory = os.path.join(script_directory, '..', 'src')
+# Get the absolute path of the 'util' module
+util_module_path = os.path.join(script_directory, '..', 'src', 'assignment_1', 'util.py')
 
-# Add the 'src' directory to the Python import path
-sys.path.append(src_directory)
+# Add the directory containing the 'util' module to the Python import path
+util_module_directory = os.path.dirname(util_module_path)
+sys.path.append(util_module_directory)
 
-# Now you can import modules from the 'src' package
-from assignment_1.util import *
-
+# Now you can import the 'util' module
+from util import *
 
 data1 = [("1",), ("2",), ("3",)]
 schema1 = ["no"]
