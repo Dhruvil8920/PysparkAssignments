@@ -1,21 +1,6 @@
-import os
 import sys
-
-# Get the absolute path of the current script
-script_path = os.path.abspath(__file__)
-
-# Get the directory of the script
-script_directory = os.path.dirname(script_path)
-
-# Get the absolute path of the 'util' module
-util_module_path = os.path.join(script_directory, '..', 'src', 'assignment_1', 'util.py')
-
-# Add the directory containing the 'util' module to the Python import path
-util_module_directory = os.path.dirname(util_module_path)
-sys.path.append(util_module_directory)
-
-# Now you can import the 'util' module
-from util import *
+print(sys.path)
+from src.assignment_1.util import *
 
 data1 = [("1",), ("2",), ("3",)]
 schema1 = ["no"]
