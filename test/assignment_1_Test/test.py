@@ -13,6 +13,6 @@ src_directory = os.path.join(script_directory, '..', 'src')
 # Add the 'src' directory to the Python import path
 sys.path.insert(0, src_directory)
 
-import assignment_1.util
+from assignment_1.util import *
 
 
