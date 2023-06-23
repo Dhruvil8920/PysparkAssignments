@@ -4,15 +4,15 @@ import sys
 # Get the absolute path of the current script
 script_path = os.path.abspath(__file__)
 
-# Get the directory of the script
+# Get the directory containing the script
 script_directory = os.path.dirname(script_path)
 
-# Get the absolute path of the parent directory (containing both 'test' and 'src' directories)
-parent_directory = os.path.dirname(script_directory)
+# Get the absolute path of the 'src' directory
+src_directory = os.path.join(script_directory, '..', 'src')
 
-# Add the parent directory to the Python import path
-sys.path.insert(0, parent_directory)
+# Add the 'src' directory to the Python import path
+sys.path.insert(0, src_directory)
 
-from src.assignment_1.util import *
+import assignment_1.util
 
 
