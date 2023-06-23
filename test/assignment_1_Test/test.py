@@ -1,3 +1,3 @@
-import PysparkAssignmentTest.PysparkAssignments.src.assignment_1.util
+from PysparkAssignmentTest.PysparkAssignments.src.assignment_1.util import *
 
 print("hello")
