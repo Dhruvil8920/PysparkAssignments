@@ -18,5 +18,6 @@ def createDF(data,schema):
 
 def trial(var):
     pass
+
 df = createDF(data,schema)
 df.show()
