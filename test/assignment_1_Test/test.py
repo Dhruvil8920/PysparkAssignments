@@ -1,5 +1,4 @@
 
+from src.assignment_1.util import *
 
-from assignment_1.util import *
-
-
+print("hello")
