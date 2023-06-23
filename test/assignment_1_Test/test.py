@@ -7,15 +7,14 @@ script_path = os.path.abspath(__file__)
 # Get the directory of the script
 script_directory = os.path.dirname(script_path)
 
-# Get the root directory (PysparkAssignments)
-root_directory = os.path.dirname(script_directory)
+# Get the absolute path of the 'src' directory
+src_directory = os.path.join(script_directory, '..', 'src')
 
-# Add the root directory to the Python import path
-sys.path.append(root_directory)
+# Add the 'src' directory to the Python import path
+sys.path.append(src_directory)
 
 # Now you can import modules from the 'src' package
-from src.assignment_1.util import *
-
+from assignment_1.util import *
 
 
 data1 = [("1",), ("2",), ("3",)]
