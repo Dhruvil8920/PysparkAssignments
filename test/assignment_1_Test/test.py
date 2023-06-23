@@ -1,4 +1,5 @@
 import os
+import sys
 # Get the absolute path of the current script
 script_path = os.path.abspath(__file__)
 # Get the directory of the script
@@ -7,6 +8,7 @@ script_directory = os.path.dirname(script_path)
 # Set the current working directory to the script's directory
 os.chdir(script_directory)
 
+sys.path.append(script_directory)
 import unittest
 from src.assignment_1.util import *
 
