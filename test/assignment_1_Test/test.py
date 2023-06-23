@@ -7,17 +7,14 @@ script_path = os.path.abspath(__file__)
 # Get the directory of the script
 script_directory = os.path.dirname(script_path)
 
-# Set the current working directory to the script's directory
-os.chdir(script_directory)
-
-# Add the current directory to the Python import path
-sys.path.append(script_directory)
+# Get the absolute path of the 'src' directory
+src_directory = os.path.join(script_directory, 'src')
 
 # Add the 'src' directory to the Python import path
-sys.path.append(os.path.join(script_directory, 'src'))
+sys.path.append(src_directory)
 
 # Now you can import modules or perform operations in the new working directory
-from ..assignment_1_Test import *
+from assignment_1.util import *
 import unittest
 
 
