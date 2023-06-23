@@ -1,6 +1,6 @@
-from PysparkAssignments.src.assignment_1.util import *
-
-
+import os
+print(os.getcwd())
+from src.assignment_1.util import *
 
 
 data1 = [("1",), ("2",), ("3",)]
