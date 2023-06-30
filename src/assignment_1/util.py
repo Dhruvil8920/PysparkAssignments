@@ -13,6 +13,7 @@ def createDF(data,schema):
     # Create a DataFrame
     df = spark.createDataFrame(data, schema)
     return df
+
 def trial(var):
     pass
 df = createDF(data,schema)
