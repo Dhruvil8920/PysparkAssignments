@@ -15,6 +15,7 @@ def createDF(data,schema):
     return df
 
 def trial(var):
+
     return 0
 
 df = createDF(data,schema)
