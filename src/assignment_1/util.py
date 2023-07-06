@@ -16,6 +16,7 @@ def createDF(data,schema):
     df = spark.createDataFrame(data, schema)
     return df
 
+
 def trial(var):
 
     return 0
