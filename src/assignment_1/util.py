@@ -12,7 +12,6 @@ schema = ["no"]  # A list of column names
 
 def createDF(data,schema):
     # Create a DataFrame
-
     df = spark.createDataFrame(data, schema)
     return df
 
