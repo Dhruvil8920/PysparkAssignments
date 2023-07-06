@@ -17,5 +17,6 @@ def createDF(data,schema):
 
 def trial(var):
     return 0
+
 df = createDF(data,schema)
 df.show()
