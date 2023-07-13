@@ -1,21 +1,40 @@
 from pyspark.sql import SparkSession
 
-# Create a SparkSession
-spark = SparkSession.builder.getOrCreate()
+#Use the transaction.csv and user.csv file to perform below questions.
 
-# Define your data
-data = [("1",), ("2",), ("3",)]  # A list of tuples
+# 1.Count of unique locations where each product is sold.
+# 2.Find out the products bought by each user.
+# 3.Total spending done by each user on each product.
+# 4.Split the email id column into two columns based on '@' symbol and have the split values in two different columns such as “name” and “extension”.
+# 5.list the user details who have bought items in a price range 10000-50000 along with product details.
 
 
-# Define the schema
-schema = ["no"]  # A list of column names
 
-def createDF(data,schema):
-    # Create a DataFrame
-    df = spark.createDataFrame(data, schema)
-    return df
-
-def trial(var):
+#Reading a CSV file and Creating a dataframe.
+def readCSV_to_DF(path):
     return 0
-df = createDF(data,schema)
-df.show()
+
+#Joining dataframes.
+def join_two_DF(df1,df2,join_type):
+    return 0
+
+#Function to count unique location.
+def unique_location_count(df):
+    return 0
+
+#Function to list the products bought by each user.
+def user_products(df):
+    return 0
+
+#Function to get the total spending by each user.
+def total_spending(df):
+    return 0
+
+#Split column.
+def split(df):
+    return 0
+
+#User details of the mentioned.
+def user_details(df):
+    return 0
+
