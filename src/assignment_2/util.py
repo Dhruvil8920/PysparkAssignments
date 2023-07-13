@@ -1,6 +1,7 @@
 from pyspark.sql import SparkSession
 
 # Recharge details.
+'''Use 'date_file.csv' file'''
 # 1.Read the csv file with a custom schema.
 # 2.Create a new column called “changed_Recharge_date” which has Recharge date column date values represented in yyyy-MM-dd default date format.Also change the data type to date type.
 # 3.drop the ‘RechargeDate’ column.

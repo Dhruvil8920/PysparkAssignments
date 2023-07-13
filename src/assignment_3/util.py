@@ -1,6 +1,9 @@
 from pyspark.sql import SparkSession
 
 # Nested Json file
+
+''' Use 'feeds_json_data.json' file'''
+
 # 1.Write custom schema and read the nested json file.
 # 2.Explode the nested Json file into flattened json.
 # 3.Check whether the data in nested json and flattened json are equal.
