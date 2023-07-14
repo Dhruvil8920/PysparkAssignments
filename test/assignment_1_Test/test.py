@@ -1,15 +1,12 @@
-from src.assignment_1.util import *
+from PysparkAssignments.src.assignment_1.util import *
 import unittest
 
-data1 = [("1",), ("2",), ("3",)]
-schema1 = ["no"]
-expdf1 = spark.createDataFrame(data1, schema1)
-var = ""
+path = "c"
 class TestMyFunc(unittest.TestCase):
 
-    if createDF(data,schema)==0:
+    if readCSV_to_DF(path) is None:
+        print("hello")
         pass
-
     else:
         def test_1(self):
             try:

@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-#Use the transaction.csv and user.csv file to perform below questions.
+''' Use the transaction.csv and user.csv file.'''
 
 # 1.Count of unique locations where each product is sold.
 # 2.Find out the products bought by each user.
@@ -12,29 +12,36 @@ from pyspark.sql import SparkSession
 
 #Reading a CSV file and Creating a dataframe.
 def readCSV_to_DF(path):
-    return 0
+    pass
+    #return df
 
 #Joining dataframes.
 def join_two_DF(df1,df2,join_type):
-    return 0
+    pass
+    #return 0
 
 #Function to count unique location.
 def unique_location_count(df):
-    return 0
+    pass
+    #return 0
 
 #Function to list the products bought by each user.
 def user_products(df):
-    return 0
+    pass
+    #return 0
 
 #Function to get the total spending by each user.
 def total_spending(df):
-    return 0
+    pass
+    #return 0
 
 #Split column.
 def split(df):
-    return 0
+    pass
+    #return 0
 
 #User details of the mentioned.
 def user_details(df):
-    return 0
+    pass
+    #return 0
 
