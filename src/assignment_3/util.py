@@ -39,4 +39,4 @@ def get_date(df):
 #Filter data
 def filter(df):
     pass
-    #return 0
+    #return df
