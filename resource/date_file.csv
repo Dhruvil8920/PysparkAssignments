@@ -1,4 +1,5 @@
-RechargeID,RechargeDate,RemainingDays,ValidityStatus
+#Column names can be
+#RechargeID(String), RechargeDate(Integer), RemainingDays(Integer), ValidityStatus(String)
 R201234,20200511,1,online
 R201235,20200119,3,online
 R201236,20200105,5,online

@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 
 # Recharge details.
 ''' Use 'date_file.csv' file'''
-# 1.Read the csv file with a custom schema which is to be written in driver program.
+# 1.Read the csv file with a custom schema by using the column names hint given in 'date_file.csv'.
 # 2.Create a new column called “changed_Recharge_date” which has Recharge date column date values represented in yyyy-MM-dd default date format.Also change the data type to date type.
 # 3.drop the ‘RechargeDate’ column.
 # 4.Delete the duplicate rows.
@@ -19,36 +19,36 @@ def readCSV_to_df(path,schema):
 #Creating new column.
 def create_new_column(df):
     pass
-    #return 0
+    #return df
 
 #Drop the column.
 def drop_column(df):
     pass
-    #return 0
+    #return df
 
 #Removing duplicate row values.
 def remove_duplicates(df):
     pass
-    #return 0
+    #return df
 
 #Count the total rows.
 def count_rows(df):
     pass
-    #return 0
+    #return df
 
 
 #Creation of expiry Date column.
 def expiry_date(df):
     pass
-    #return 0
+    #return df
 
 #Changing value in the validity column.
 def change_value(df):
     pass
-    #return 0
+    #return df
 
 #Filter the column
 def count_date_based_(df):
     pass
-    #return 0
+    #return df
 

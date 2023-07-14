@@ -1,4 +1,4 @@
-user_id,emailid,nativelanguage,location 
+user_id,email_id,native_language,location
 101,abc.123@gmail.com,hindi,mumbai
 102,jhon@gmail.com,english,usa
 103,madan.44@yahoo.com,marathi,nagpur
@@ -9,4 +9,3 @@ user_id,emailid,nativelanguage,location
 108,sohan@gmail.com,kannad,usa
 109,case@outlook.com,tamil,mumbai
 110,fury@gmail.com,hindi,nagpur
-
