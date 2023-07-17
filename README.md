@@ -24,6 +24,12 @@ Replace `your-name` with your actual name.
 
 Solve the problems by writing logic for each specific question. The questions are provided within the repository.
 
+You must write the logic of the function for the specific function in the `util.py` file located within. 
+
+Create a driver file where the `util.py` file is called `driver.py` inside of each assignment, calling the functions from the `util.py` file to finish the questions for that assignment.
+
+After that, you must create your own test cases in `test` directory to determine whether or not the function in the `util.py` file is operating correctly.
+
 Once you have completed solving a problem, commit your changes to your branch.
 
 ### Step 4: Check Test Results
