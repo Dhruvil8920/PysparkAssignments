@@ -15,7 +15,6 @@ from pyspark.sql import SparkSession
 def readCSV_to_df(path,schema):
     a= "hello"
     return a
-
 def readCSV_to_df(path, schema):
     pass
     # return df
