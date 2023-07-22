@@ -13,7 +13,6 @@ from pyspark.sql import SparkSession
 
 #Reading a CSV file and Creating a dataframe.
 def readCSV_to_df(path,schema):
-
     a= "hello"
     return a
 def readCSV_to_df(path, schema):
