@@ -11,7 +11,7 @@ spark=SparkSession.builder.getOrCreate()
 # Rename the resultant column as "products_bought".
 # 3.Total spending done by each user on each product.
 # Rename the resultant column as "total_spend".
-# 4.Split the 'email id' column into two columns based on '@' symbol.
+# 4.Split the 'email_id' column into two columns based on '@' symbol.
 # Have the split values in two different columns such as “name” and “extension”.
 # 5.list the user details who have bought items in a price range 10000-50000 along with product details.
 
