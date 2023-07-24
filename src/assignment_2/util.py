@@ -7,7 +7,7 @@ from pyspark.sql import SparkSession
 # 3.drop the ‘RechargeDate’ column.
 # 4.Delete the duplicate rows.
 # 5.Total Count of rows.
-# 6.Add the “RemainingDays” column value to the date part of the column ”changed_Recharge_date” and give the newly calculated date in a column called “expiryDate”.
+# 6.Add the “RemainingDays” column value to the date part of the column ”changed_Recharge_date” and remane this colummn as “expiryDate”.
 # 7.Change the “over” value in 'ValidityStatus' column by a new value called “validity expired”.
 # 8.Get the count of the column 'expiry_date' filtered based upon the date between "2020-05-12" and "2020-07-11".
 
@@ -37,8 +37,8 @@ def count_rows(df):
     #return count
 
 
-#Creation of expiry Date column.
-def expiry_date(df):
+#Creation of expiryDate column.
+def expiry_date(df, colName1, colName2):
     pass
     #return df
 
@@ -48,7 +48,7 @@ def change_value(df, name, str1, str2):
     #return df
 
 #Filter the column
-def count_date_based_(df, name):
+def count_date_based(df, name):
     pass
     #return df
 
